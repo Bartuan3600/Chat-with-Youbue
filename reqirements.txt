@@ -1,4 +1,4 @@
-langchain==0.0.201
+LangChain
 openai==0.27.0
 youtube-dl==2021.6.6
 chroma-js==1.4.0
