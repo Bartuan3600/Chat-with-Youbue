@@ -3,3 +3,4 @@ youtube-dl==2021.6.6
 chroma-js==1.4.0
 langchain==0.0.201
 streamlit
+tiktoken
