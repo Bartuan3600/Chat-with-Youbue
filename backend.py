@@ -12,7 +12,6 @@ def comp_press(api_key, url, question):
     OPENAI_API_KEY = api_key
     os.environ["OPENAI_API_KEY"] = api_key
     llm = OpenAI(temperature=0.9, openai_api_key=OPENAI_API_KEY, model_name="gpt-3.5-turbo")
-    #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
 
     # Initialize document loader
     loader = YoutubeLoader.from_youtube_url(url)
