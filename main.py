@@ -44,7 +44,7 @@ def frontend():
 
     with st.sidebar:
         st.subheader("Enter your API key")
-        api_key = st.text_input("Enter API key", placeholder="sk_test_BQokikJOvBiI2HlWgH4olfQ2", type="password")
+        api_key = st.text_input("Enter API key", placeholder="your-api-key", type="password")
         #help="How to get an OpenAI API Key: https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/"
         url = st.text_input("Enter URL below: ", placeholder="www.youtube.com/...")
 
